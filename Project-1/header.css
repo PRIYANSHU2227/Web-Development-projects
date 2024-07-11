@@ -1,0 +1,174 @@
+
+.header{
+    width: 100vw;
+    height: 96vh;
+}
+.header img{
+    width: 100%;
+    height: 100%;
+}
+.header .head-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    height: 104%;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.8)0,rgba(0, 0, 0, 0)60%,rgba(0, 0, 0, 0.8)100%);
+}
+.header .head-img .container{
+    width: 80%;
+    height: 95%;
+    background-color: rgba(0,0,0,0);
+}
+.header .head-img .container .top{
+    height: 7%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header .head-img .container .top .top-1 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    background-color: rgba(0, 0, 0, 0);
+}
+.header .head-img .container .top .top-1 div{
+    width: 39%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+.header .head-img .container .top .top-1 div img{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+.header .head-img .container .top .top-2 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0);
+}
+.header .head-img .container .top .top-2 div{
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0);
+}
+.top-2 .select{
+    margin-right: 5%;
+}
+.select-in select{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+.header .head-img .container .top .top-2 .Search{
+    height: 67%;
+    width: 13%;
+    display: flex;
+    align-items: center;
+}
+.header .head-img .container .top .top-2 button{
+    width:80%;
+    height: 89%;
+    border: 0;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.header .head-img .container .bottom{
+    height: 93%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.header .head-img .container .bottom .bottom-in{
+    width: 75%;
+    height: 35%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+}
+.header .head-img .container .bottom .bottom-in div{
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+}
+.b1{
+    height: 25%;
+    font-size: 2.7rem;
+    font-weight: 1000;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+.b2{
+    height: 25%;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+.b3{
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+}
+.b31{
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    height: 35%;
+}
+.b31 input{
+    color: azure;
+}
+.b32{
+    height: 65%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.b32 input{
+    width: 38%;
+    height: 80%;
+    color: white;
+    border: 0.3px solid #a0a0a0;
+    border-radius: 6px;
+    padding-left:2%;
+    letter-spacing: 1px;
+    background-color: rgb(0,0,0,0.5);
+}
+.b32 button{
+    cursor:pointer;
+    margin-left: 10px;
+    width: 24%;
+    height: 80%;
+    color: white;
+    background-color: red;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}

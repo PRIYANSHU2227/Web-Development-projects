@@ -1,0 +1,111 @@
+.box{
+    background-color: black;
+    width: 100vw;
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-box{
+    background-color: black;
+    height: 80%;
+    width: 77%;
+    display: flex;
+    align-items: center;
+}
+
+.sub-box .img-vid{
+    position: relative;
+}
+.sub-box .img-vid img{
+    position: relative;
+    z-index: 2;
+    background-color: rgba(0,0,0,0);
+
+}
+.sub-box .img-vid video{
+    position: absolute;
+    left: 12%;
+    bottom: 24%;
+}
+#sim123 video {
+    bottom: 28%;
+    width: 61%;
+    height: 81%;
+    left: 19%;
+  }
+.upper-sub-box{
+    height: 100%;
+    width: 50%;
+}
+.sub-box .upper-sub-box img{
+    width: 100%;
+    height: 98%;
+}
+.upper-sub-box .cover{
+    width: 51%;
+    height: 16.9%;
+    position: relative;
+    left: 22.8%;
+    bottom: 30%;
+    background-color: black;
+    border: 2px solid rgb(65, 61, 61);
+    border-radius: 9px;
+    padding: 10px;
+    display: flex;
+}
+.c1{
+    width: 20%;
+    height: auto;
+}
+.c1 img{
+    width: 100%;
+    height: 100%;
+}
+.c2{
+    width: 60%;
+    height: auto;
+    font-family: sans-serif;
+    padding-left: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center ;
+}
+.c21{
+    height: 30%;
+    color: white;
+    font-weight: 600;
+}
+.c22{
+    height: 30%;
+    color: rgb(94, 94, 255);
+}
+.c3{
+    width: 20%;
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+.c3 img{
+    height: 53%;
+    width: 100%;
+}
+.sub-sub-box{
+    width: 50%;
+    height: 44%;
+    background-color: black;
+}
+.s1{
+    font-size: 3.3rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+}
+.s2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+}

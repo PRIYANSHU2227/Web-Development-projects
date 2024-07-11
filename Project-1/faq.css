@@ -1,0 +1,90 @@
+.faq{
+    width: 100vw;
+    height: 125vh;
+    /* height: 60vh; */
+    display: grid;
+    place-items: center;
+    /* color: white; */
+    background-color: black;
+}
+
+.faq {
+    transition: height 0.5s ease; /* Adjust the duration and timing function as needed */
+    overflow: hidden; /* Ensures content is clipped when the height is reduced */
+}
+
+
+.faq-in{
+    width: 77%;
+    height: 86%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+.fq1{
+    width:100%; 
+    height: 9%;
+    font-family:  sans-serif;
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 805;
+    padding-bottom: 1%;
+}
+.fq2{
+    width:100%;
+    height: 78%; 
+}
+
+
+.fq2 .x1{
+    width: 100%;
+    height: 12vh;
+    color: white;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    border: 0;
+    padding: 0 2% 0 2% ;
+    transition: 0.5s;
+}
+.fq2 .x1:hover{
+    transition: 0.5s;
+    background-color: #3a3939;
+}
+
+.fq2 p{
+    max-height: 12vh;
+    background-color: #2d2d2d;
+    display: none;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: 1% 1% 1% 1%;
+}
+
+.gap{
+    height: 1.34%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.fq3{
+    width:100%;
+    height: 4%; 
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.h{
+    height: 8%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.h .b32{
+    width: 70%;
+    height: 100%;
+}
